@@ -1,0 +1,7 @@
+Assert:
+ è praticamente un if in line, ad esempio:
+ assert data.statuscode = 200, data.reason // Che significa assicurati che la richiesta sia andata a buon fine... (nel caso non lo è viene ritornata la ragione dell'errore)
+
+Se fai una classe solo per poi metterci metodi statici fai prima a creare solamente i metodi senza la classe
+
+Nelle richieste è preferibile passare i parametri organizzandoli nell'apposito argomento param della richiesta get, invece che buttarli direttamente nel testo dell'URL
